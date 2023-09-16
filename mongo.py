@@ -5,8 +5,6 @@ import os
 from dotenv import load_dotenv
 
 load_dotenv()
-
-
 class MongoConnection:
     def __init__(self):
         user = os.getenv("MONGO_USER")
